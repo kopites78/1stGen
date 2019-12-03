@@ -19,8 +19,7 @@
 
 	if (!isset($_SESSION['eunik_member_login'])) { $_SESSION['eunik_member_login'] = ""; }
 	if (!isset($_SESSION['eunik_member_uid'])) { $_SESSION['eunik_member_uid'] = ""; }
-	if (!isset($_SESSION['eunik_member_type1'])) { $_SESSION['eunik_member_type'] = ""; }
-	if (!isset($_SESSION['eunik_member_type2'])) { $_SESSION['eunik_member_type'] = ""; }
+	if (!isset($_SESSION['eunik_member_type'])) { $_SESSION['eunik_member_type'] = ""; }
 
 	if (!isset($_SESSION['eunik_member_checkout_post_address'])) { $_SESSION['eunik_member_checkout_post_address'] = ""; }
 	//if (!isset($_SESSION['eunik_member_checkout_bill_address'])) { $_SESSION['eunik_member_checkout_bill_address'] = ""; }
